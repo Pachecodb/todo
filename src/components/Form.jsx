@@ -19,10 +19,6 @@ export default function Form() {
             localStorage.setItem("Lista_tarefas", JSON.stringify([...lista, novaTarefa]));
         }
     };
-
-    const deleteTarefa = (tarefa) => {
-        console.log("exlcuido")
-    }
     return (
         <div>
             <form>
@@ -32,7 +28,7 @@ export default function Form() {
             </form>
             {lista.map((tarefa) => (
                 <div key={tarefa.id}>
-                    <span>{tarefa.title}</span>
+                    <span>{tarefa.title}</span>               
                 </div>
             ))}
         </div>
