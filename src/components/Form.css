@@ -1,0 +1,50 @@
+
+.app{
+    text-align: center;
+}
+
+h6 {
+    color: rgb(187, 187, 230);
+    margin: auto;
+}
+
+
+.form1 {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.lista{
+    background-color: #555;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px 140px 10px 15px ;
+    text-align: left;
+    font-size: 22px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.numeroTarefa{
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+}
