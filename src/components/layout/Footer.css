@@ -1,0 +1,27 @@
+.footer{
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social li{
+  margin: 0 1em;
+}
+.soical li:hover{
+  color: #e4469d;
+}
+
+.copy_right{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  font-weight: bold;
+  flex-direction: column;
+}
